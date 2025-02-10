@@ -1,1 +1,4 @@
 .*.sw?
+
+/share/*
+!/share/.gitkeep

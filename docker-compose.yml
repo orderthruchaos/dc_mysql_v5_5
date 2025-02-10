@@ -23,3 +23,4 @@ services:
     volumes:
       # Where our data will be persisted
       - mysql_data:/var/lib/mysql
+      - ./share:/opt/share:delegated
